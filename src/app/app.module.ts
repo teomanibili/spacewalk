@@ -16,6 +16,16 @@ import { VideoThumbnailComponent } from './video-thumbnail/video-thumbnail.compo
 import { WelcomeComponent } from './welcome/welcome.component';
 
 import { examples } from './examples';
+import { Workshop0Component } from './workshop0/workshop0.component';
+import { Workshop1Component } from './workshop1/workshop1.component';
+import { Workshop2Component } from './workshop2/workshop2.component';
+import { Workshop3Component } from './workshop3/workshop3.component';
+import { Workshop4Component } from './workshop4/workshop4.component';
+import { Workshop5Component } from './workshop5/workshop5.component';
+import { Workshop6Component } from './workshop6/workshop6.component';
+import { Workshop7Component } from './workshop7/workshop7.component';
+import { Workshop8Component } from './workshop8/workshop8.component';
+import { Workshop9Component } from './workshop9/workshop9.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +43,16 @@ import { examples } from './examples';
     VideoPlayerComponent,
     VideoThumbnailComponent,
     WelcomeComponent,
+    Workshop0Component,
+    Workshop1Component,
+    Workshop2Component,
+    Workshop3Component,
+    Workshop4Component,
+    Workshop5Component,
+    Workshop6Component,
+    Workshop7Component,
+    Workshop8Component,
+    Workshop9Component,
   ],
   imports: [
     BrowserModule,

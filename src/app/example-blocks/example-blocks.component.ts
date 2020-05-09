@@ -11,7 +11,7 @@ export class ExampleBlocksComponent {
   labels: string[] = [];
 
   constructor() {
-    for (let i = 1; i < 40; i++) {
+    for (let i = 1; i < 20; i++) {
       this.labels.push('' + i);
     }
   }

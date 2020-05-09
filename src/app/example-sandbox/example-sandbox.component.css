@@ -1,6 +1,11 @@
 /* See comments at the bottom for changes to try. */
 
 .sandbox {
+  display: grid;
+  grid-gap: 20px;
+
+  grid-template-columns: 300px 500px;
+
   background-color: lightblue;
   padding: 20px;
 }
@@ -15,6 +20,7 @@ img {
 }
 
 header {
+  grid-column: span 2;
 }
 
 aside {
@@ -24,12 +30,15 @@ main {
 }
 
 .carl {
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
 
 .pbd {
 }
 
 footer {
+  grid-column: span 2;
 }
 
 /*
